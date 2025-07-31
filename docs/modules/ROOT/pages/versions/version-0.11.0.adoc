@@ -1,0 +1,37 @@
+= Version 0.11.0
+
+_Release Name_: Inji 0.11.0
+
+_Upgrade From_: Inji 0.10.0
+
+_Support_: Support Release
+
+_Release Date_: 23rd February, 2024
+
+== Overview
+
+We are excited to announce the first independent release of _Mimoto_, officially named version 0.11.0. This release is built upon Inji 0.10.0 and primarily focuses on the following:
+
+* Onboarding a new VC Issuer
+* Mimoto-Issuer onfiguration changes
+
+== Summary
+
+Please find below the details for the 0.11.0 release:
+
+_ _Onboarding a new VC Issuer*: For each new VC Issuer, Mimoto must be onboarded as an OIDC client to [eSignet](https://docs.esignet.io/). To know more, refer [here](../technical-overview/customization-overview/credential_providers.adoc).
+_ _Mimoto-Issuer configuration changes*: Changes to authentication and well-known configuration details will be included in the mimoto-issuers configuration. To know more, refer [here](https://docs.mosip.io/inji/backend-services/mimoto#configuration).
+
+== Repository Released
+
+| _Repositories_ | _Tags Released_                                                               |
+| ---------------- | ------------------------------------------------------------------------------- |
+| mimoto           | [v0.11.0](https://github.com/mosip/mimoto/releases/tag/v0.11.0)                 |
+| mosip-config     | [v0.11.0-INJI](https://github.com/mosip/mosip-config/releases/tag/v0.11.0-INJI) |
+
+== Documentation
+
+* [Feature Documentation](../overview/features.adoc)
+* [Integration Guides](../technical-overview/integration-guide/)
+* [User Guide](../functional-overview/end-user-guide.adoc)
+* [API Documentation](https://github.com/mosip/mimoto/tree/release-0.10.0/docs/postman-collections)

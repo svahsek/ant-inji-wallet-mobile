@@ -1,0 +1,125 @@
+= Version 0.15.0
+
+_Release Name:_ Inji Wallet 0.15.0
+
+_Release Type:_ Developer
+
+_Release Date:_ 18th Feb, 2025
+
+=== _Overview:_
+
+We are excited to announce the release of Inji Wallet Version 0.15.0! This update brings significant improvements in credential handling, security enhancements, and expanded format support. Here are the key highlights of this release:
+
+=== _Key Highlights:_
+
+_ _PixelPass - CWT Decode:* Enhanced PixelPass capabilities with support for CWT decoding, increasing versatility in credential handling.
+_ _Support for Different VC Formats:* Inji Wallet now supports various verifiable credential formats, including mDoc, mDL, and CBOR, broadening interoperability.
+_ _W3C-Based Wallet Rendering:* Improved rendering for W3C-based verifiable credentials, ensuring seamless display and user experience.
+_ _Key Generation Enhancements:* Added support for ECC (R1 & K1) and Ed25519 key generation, enhancing cryptographic flexibility.
+_ _OpenID4VP (Online Sharing):* Implemented support for OpenID4VP, enabling secure online credential sharing.
+_ _VC Verification SDK Updates:*
+  * Added RSA support for Kotlin and Java SDKs.
+  * Added EdDSA support for Kotlin and Java SDKs.
+
+=== _Features Covered:_
+
+_ _PixelPass Enhancements:*
+  * Added CWT decoding capabilities to enhance credential handling.
+_ _Expanded VC Format Support:*
+  * Support for mDoc, mDL, and CBOR formats to improve compatibility across different ecosystems.
+_ _W3C Rendering:*
+  * Improved rendering logic for better user interface consistency and compliance with W3C standards.
+_ _Cryptographic Key Generation:*
+  * ECC (R1 & K1) key generation.
+  * Ed25519 key generation for improved security.
+_ _OpenID4VP Implementation:*
+  * Enabled online sharing of credentials via OpenID4VP protocol.
+_ _VC Verification SDK Enhancements:*
+  * RSA support added for Kotlin and Java SDKs.
+  * EdDSA support added for Kotlin and Java SDKs.
+  * Swift SDK support removed.
+
+=== _Repository Released_
+
+| _Module_                | _Version_                                                                  |
+| ------------------------- | ---------------------------------------------------------------------------- |
+| Inji Mobile Wallet        | [_v0.15.0_](https://github.com/mosip/inji-wallet/tree/v0.15.0)             |
+| mimoto                    | [_v0.15.2_](https://github.com/mosip/mimoto/tree/v0.15.2)                  |
+| vc-verifier               | [_v1.1.0_](https://github.com/mosip/vc-verifier/tree/v1.1.0)               |
+| inji-openid4vp-ios-swift  | [_v0.1.0_](https://github.com/mosip/inji-openid4vp-ios-swift/tree/v0.1.0)  |
+| inji-openid4vp            | [_v0.1.0_](https://github.com/mosip/inji-openid4vp/tree/v0.1.0)            |
+| inji-vci-client-ios-swift | [_v0.2.0_](https://github.com/mosip/inji-vci-client-ios-swift/tree/v0.2.0) |
+| inji-vci-client           | [_v0.2.0_](https://github.com/mosip/inji-vci-client/tree/v0.2.0)           |
+| secure-keystore-ios-swift | [_v0.3.0_](https://github.com/mosip/secure-keystore-ios-swift/tree/v0.3.0) |
+| secure-keystore           | [_v0.3.0_](https://github.com/mosip/secure-keystore/tree/v0.3.0)           |
+| pixelpass-ios-swift       | [_v0.6.0_](https://github.com/mosip/pixelpass-ios-swift/tree/v0.6.0)       |
+| pixelpass                 | [_v0.6.0_](https://github.com/mosip/pixelpass/tree/v0.6.0)                 |
+
+=== _Compatible Modules_
+
+| _Module_       | _Version_                                                                 |
+| ---------------- | --------------------------------------------------------------------------- |
+| Inji-config      | [_0.5.0_](https://github.com/mosip/inji-config/tree/v0.5.0)               |
+| eSignet          | [_1.5.0_](https://github.com/mosip/esignet/tree/v1.5.0)                   |
+| Inji Certify     | [_0.10.1_](https://github.com/mosip/inji-certify/tree/v0.10.1)            |
+| Inji Verify      | [_v0.10.0_](https://github.com/mosip/inji-verify/tree/v0.10.0)            |
+| tuvali           | [_v0.5.1_](https://github.com/mosip/tuvali/tree/v0.5.1)                   |
+| tuvali-ios-swift | [_v0.5.0_](https://github.com/mosip/tuvali-ios-swift/releases/tag/v0.5.0) |
+
+=== _Known Issues_
+
+Below is the list of [_known_](https://mosip.atlassian.net/jira/software/c/projects/INJIMOB/issues/?jql=project%20%3D%20%22INJIMOB%22%20AND%20type%20%3D%20Bug%20AND%20status%20IN%20%28New%2C%20Assigned%29%20ORDER%20BY%20created%20DESC) issues. To read in detail click [_here_](https://mosip.atlassian.net/jira/software/c/projects/INJIMOB/issues/?jql=project%20%3D%20%22INJIMOB%22%20AND%20type%20%3D%20Bug%20AND%20status%20IN%20%28New%2C%20Assigned%29%20ORDER%20BY%20created%20DESC)_._
+
+| _Jira Issue_                                                      | _Issue Description_                                                                                                                          |
+| ------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| [_INJIMOB-2901_](https://mosip.atlassian.net/browse/INJIMOB-2901) | \[OpenId4VP] QR data is base64 encoded                                                                                                         |
+| [_INJIMOB-2907_](https://mosip.atlassian.net/browse/INJIMOB-2907) | Invalid URL Format for OPENID4VP on Android 14 and above version                                                                               |
+| [_INJIMOB-2521_](https://mosip.atlassian.net/browse/INJIMOB-2521) | Search is not working for the VCs from home page                                                                                               |
+| [_INJIMOB-2241_](https://mosip.atlassian.net/browse/INJIMOB-2241) | INJI- In the Credential Registry popup, when entering an invalid URL in the 'Edit Credential Registry' field, the error message is overlapping |
+| [_INJIMOB-2159_](https://mosip.atlassian.net/browse/INJIMOB-2159) | The activation VC is not working for a second time on the same device; the same VC displays a technical error message.                         |
+| [_INJIMOB-1852_](https://mosip.atlassian.net/browse/INJIMOB-1852) | After we removed the mandatory configuration for the Mock issuer is not showing the error message in UI                                        |
+| [_INJIMOB-1603_](https://mosip.atlassian.net/browse/INJIMOB-1603) | During face authentication, the camera view is not opening in all IOS device                                                                   |
+| [_INJIMOB-1336_](https://mosip.atlassian.net/browse/INJIMOB-1336) | Automation run for sanity is failing few scenarios                                                                                             |
+
+=== _Bug Fixes_
+
+Below is the [_list_](https://mosip.atlassian.net/jira/software/c/projects/INJIMOB/issues/?filter=allissues\&jql=project%20%3D%20%22INJIMOB%22%20AND%20type%20%3D%20Bug%20AND%20labels%20%3D%20qa-inji_mob_release0150_closed%20ORDER%20BY%20created%20DESC) of fixes as part of the _0.15.0_ release:
+
+| _Jira Issue_                                                      | _Issue Description_                                                                                                                             |
+| ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [_INJIMOB-2880_](https://mosip.atlassian.net/browse/INJIMOB-2880) | Sunbird insurance VC download is failing with Ed25519 key                                                                                         |
+| [_INJIMOB-2778_](https://mosip.atlassian.net/browse/INJIMOB-2778) | Automation(VC Verifier) - Verification of the mDL (mso\_mdoc) against VC Verifier library is failing with no classFoundException                  |
+| [_INJIMOB-2576_](https://mosip.atlassian.net/browse/INJIMOB-2576) | Disable the toggle for the biometric, but do not provide a passcode. Close and reopen the application; it still asks for a passcode to log in     |
+| [_INJIMOB-2572_](https://mosip.atlassian.net/browse/INJIMOB-2572) | qa-inji1 - Issuer page is not loading                                                                                                             |
+| [_INJIMOB-2549_](https://mosip.atlassian.net/browse/INJIMOB-2549) | DL VC download is failing in qa-inji1                                                                                                             |
+| [_INJIMOB-2548_](https://mosip.atlassian.net/browse/INJIMOB-2548) | INJIMOB- We are unable to download the MOSIP VC using the RegClient UIN, as it shows an 'Invalid UIN' error                                       |
+| [_INJIMOB-2525_](https://mosip.atlassian.net/browse/INJIMOB-2525) | The Help icon should be consistent across all pages                                                                                               |
+| [_INJIMOB-2524_](https://mosip.atlassian.net/browse/INJIMOB-2524) | Intermittent download errors occur, causing the application to become unusable                                                                    |
+| [_INJIMOB-2522_](https://mosip.atlassian.net/browse/INJIMOB-2522) | After performing backup and restore, and then removing a VC, the actual count of VCs and the VCs present in the wallet are mismatched             |
+| [_INJIMOB-2462_](https://mosip.atlassian.net/browse/INJIMOB-2462) | Error screen CTAs not working in VC download flow                                                                                                 |
+| [_INJIMOB-2450_](https://mosip.atlassian.net/browse/INJIMOB-2450) | Injimobile- The download VC is stuck in a loading state                                                                                           |
+| [_INJIMOB-2324_](https://mosip.atlassian.net/browse/INJIMOB-2324) | Intermediately We are unable to download the mock mdl VC; an error message appears.                                                               |
+| [_INJIMOB-2311_](https://mosip.atlassian.net/browse/INJIMOB-2311) | We are unable to download the mosip VC; an error message appears                                                                                  |
+| [_INJIMOB-2310_](https://mosip.atlassian.net/browse/INJIMOB-2310) | IOS - when biometric is cancelled multiple times during app launch the app data is deleted                                                        |
+| [_NJIMOB-2264_](https://mosip.atlassian.net/browse/INJIMOB-2264)  | Online login is failing with inji app crash from device                                                                                           |
+| [_INJIMOB-2252_](https://mosip.atlassian.net/browse/INJIMOB-2252) | INJI - After providing biometric authentication, if the user clicks the cancel button, they should not be allowed to successfully download the VC |
+| [_INJIMOB-2228_](https://mosip.atlassian.net/browse/INJIMOB-2228) | Inji- We are unable to download the VC via MOSIP ID due to an error message stating 'Failed to send OTP                                           |
+| [_INJIMOB-2227_](https://mosip.atlassian.net/browse/INJIMOB-2227) | Inji- The link from the help page leads to a 'Page Not Found' error when clicked                                                                  |
+| [_INJIMOB-2214_](https://mosip.atlassian.net/browse/INJIMOB-2214) | INJI- Intermittently, we are unable to download Sunbird as a 'Something went wrong' screen is being displayed                                     |
+| [_INJIMOB-2146_](https://mosip.atlassian.net/browse/INJIMOB-2146) | In INJI Mobile app, the issue type fails to load after selecting an issuer on Android and iOS devices                                             |
+| [_INJIMOB-2122_](https://mosip.atlassian.net/browse/INJIMOB-2122) | INJIMOB - Along with Insurance certify VC, an extra mock VC is getting downloaded                                                                 |
+| [_INJIMOB-2120_](https://mosip.atlassian.net/browse/INJIMOB-2120) | INJIMOB - Mock certify and mock fallback VC downloaded background color not reflecting, Only after close and reopen app it is reflecting          |
+| [_INJIMOB-2098_](https://mosip.atlassian.net/browse/INJIMOB-2098) | INJIMOB - About inji detail is different from IOS to android                                                                                      |
+| [_INJIMOB-2048_](https://mosip.atlassian.net/browse/INJIMOB-2048) | Biometrics Toggle stop working after Inji tour guide is dismissed                                                                                 |
+| [_INJIMOB-2042_](https://mosip.atlassian.net/browse/INJIMOB-2042) | INJIMOB- QR login is not working, we 're sorry! due to technical error we are unable to serve your request now, please try again later            |
+| [_INJIMOB-1956_](https://mosip.atlassian.net/browse/INJIMOB-1956) | INJIMOB- intermediately , the QR login is not working. We are encountering an error message                                                       |
+| [_INJIMOB-1910_](https://mosip.atlassian.net/browse/INJIMOB-1910) | In the INJI 0.12x version, issues with downloading their UIN cards                                                                                |
+| [_INJIMOB-1894_](https://mosip.atlassian.net/browse/INJIMOB-1894) | User is getting a 'Technical error' message on the first attempt to download the VC after restarting the certify pod                              |
+| [_INJIMOB-1856_](https://mosip.atlassian.net/browse/INJIMOB-1856) | Injimobile- After we removed the mandatory configuration for the Mock issuer is not showing the error message in UI                               |
+| [_INJIMOB-1837_](https://mosip.atlassian.net/browse/INJIMOB-1837) | Search box close button is not working unless invoked on a specific point                                                                         |
+
+* [Feature Documentation](https://docs.mosip.io/inji/inji-mobile-wallet/overview/features)
+* [Integration Guides](https://docs.mosip.io/inji/inji-mobile-wallet/integration-guide)
+* [User Guide](https://docs.mosip.io/inji/inji-mobile-wallet/end-user-guide)
+* [QA Report](https://docs.inji.io/inji-wallet/inji-mobile/versions/version-0.15.0/test-report)
+* [API Documentation](https://github.com/mosip/mimoto/tree/release-0.15.x/docs/postman-collections)

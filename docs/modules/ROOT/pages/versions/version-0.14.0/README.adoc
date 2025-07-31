@@ -1,0 +1,115 @@
+= Version 0.14.0
+
+_Release Name_: Inji Wallet 0.14.0
+
+_Release Type_: Developer Release
+
+_Release Date_: 25th Nov, 2024
+
+=== _Overview of the Release:_
+
+We are excited to announce the release of _Inji Wallet Version 0.14.0!_ This update introduces major enhancements and new features, particularly in credential issuance. Here are the key highlights of this release:
+
+_ _PixelPass Enhancements*: Support for CBOR encoding/decoding is available, making PixelPass more versatile and efficient in handling data.
+_ _Integration with Inji Certify*: We've integrated eSignet for authentication and Certify for streamlined credential issuance, providing a seamless experience.
+_ _Compliance with Draft 13 of the OpenID4VCI Spec*: Inji Wallet now fully supports the latest Draft 13 changes of the OpenID4VCI specification, ensuring compatibility with the evolving standards in the industry.
+_ _Java upgrade in mimoto:* A significant tech upgrade for mimoto to move from java11 to java21.
+_ _Theme Upgrade*:&#x20;
+  _ _A Gradient Look and Feel*: Introducing a sleek gradient-based design as the new default theme for Inji Wallet. This theme offers a modern and visually appealing user experience, enhancing usability and aesthetic appeal.
+
+=== _Features Covered_
+
+. PixelPass enhancements - Support CBOR encoding/decoding
+   . Given JSON data, it does the CBOR encode/decode.
+   . Given a JSON and a Mapper(similar to [claim 169](https://github.com/mosip/id-claim-169/blob/main/draft-id-claim-169.md)) are given, it maps the JSON with Mapper and then does the CBOR encode/decode.
+. Integrate eSignet for Auth and Certify for credential issuance
+   . _Authorisation partner:_ eSignet
+   . _KBI plugin:_ eSignet
+   . _Credential Issuance:_ Certify
+. Draft 13 changes of OpenID4VCI spec -  Compatibility of the credential issuance as per the latest draft of OpenID4VCI specification.
+
+=== _Repository Released_
+
+| _Repositories_          | _Tags Released_                                                        |
+| ------------------------- | ------------------------------------------------------------------------ |
+| Inji-wallet               | [v0.14.0](https://github.com/mosip/inji-wallet/tree/v0.14.0)             |
+| Inji-vci-client-ios-swift | [v0.1.1](https://github.com/mosip/inji-vci-client-ios-swift/tree/v0.1.1) |
+
+=== _Compatible Modules:_
+
+The following table outlines the tested and certified compatibility of Inji Wallet 0.14.0 with other modules.
+
+| _Module_          | _Version_                                                                |
+| ------------------- | -------------------------------------------------------------------------- |
+| Mimoto              | [v0.14.0](https://github.com/mosip/mimoto/tree/v0.14.0)                    |
+| Inji-config         | [v0.3.0](https://github.com/mosip/inji-config/tree/v0.3.0)                 |
+| eSignet             | [v1.4.1](https://github.com/mosip/esignet/tree/v1.4.1)                     |
+| Inji Verify         | [v0.10.0](https://github.com/mosip/inji-verify/tree/v0.10.0)               |
+| tuvali              | [v0.5.1](https://github.com/mosip/tuvali/tree/v0.5.1)                      |
+| tuvali-ios-swift    | [v0.5.0](https://github.com/mosip/tuvali-ios-swift/releases/tag/v0.5.0)    |
+| secure-Keystore     | [v0.2.1](https://github.com/mosip/secure-keystore/tree/v0.2.1)             |
+| pixelpass           | [v0.2.1](https://github.com/mosip/pixelpass/tree/v0.2.1)                   |
+| pixelpass-ios-swift | [v0.2.0](https://github.com/mosip/pixelpass-ios-swift/releases/tag/v0.2.0) |
+| Inji-vci-client     | [v0.1.1](https://github.com/mosip/inji-vci-client/tree/v0.1.1)             |
+
+=== _Known Issues_
+
+Below is the list of known issues. To read in detail and view all the issues related to Inji Verify please click [_here_](https://mosip.atlassian.net/jira/software/c/projects/INJIMOB/issues/?filter=11622)_._
+
+_Note_: Redmi devices are not supported in this release.
+
+| Jira issue                                                              | Issue description                                                                                                                                                 |
+| ----------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [_Inji Wallet-1896_](https://mosip.atlassian.net/browse/INJIMOB-1896) | Inji Wallet- After clicking the + icon, the screen flickers before landing on the 'Add New Card' screen                                                           |
+| [_Inji Wallet-1837_](https://mosip.atlassian.net/browse/INJIMOB-1837) | The search box close button is not working unless invoked on a specific point                                                                                     |
+| [_Inji Wallet-1748_](https://mosip.atlassian.net/browse/INJIMOB-1748) | Inji Wallet- Android - History timings could be more precise                                                                                                      |
+| [_Inji Wallet-1745_](https://mosip.atlassian.net/browse/INJIMOB-1745) | IOS- The Wallet app session should expire if the app is opened for a longer time and the user tries to log in again with the PIN to generate VC by using UIN/VID. |
+| [_Inji Wallet-1744_](https://mosip.atlassian.net/browse/INJIMOB-1744) | Inji Wallet- The error message of QR code login without an internet attempt should be revised                                                                     |
+| [_Inji Wallet-1604_](https://mosip.atlassian.net/browse/INJIMOB-1604) | Inji Wallet- On the face verification page the capture button overlaps with the text                                                                              |
+| [_Inji Wallet-1603_](https://mosip.atlassian.net/browse/INJIMOB-1603) | Inji Wallet- During face authentication, the camera view is not opening in all IOS device                                                                         |
+| [_Inji Wallet-1530_](https://mosip.atlassian.net/browse/INJIMOB-1530) | Inji Wallet - IOS - "Share QR Code" is not working on iPhone 8.                                                                                                   |
+| [_Inji Wallet-1490_](https://mosip.atlassian.net/browse/INJIMOB-1490) | Inji Wallet - Backup is not triggering automatically when VC is removed.                                                                                          |
+| [_Inji Wallet-1481_](https://mosip.atlassian.net/browse/INJIMOB-1481) | Inji Wallet- the logo of Inji Wallet stretched while booting the app                                                                                              |
+| [_Inji Wallet-1265_](https://mosip.atlassian.net/browse/INJIMOB-1265) | IOS -For specific devices, the User cannot see the iCloud ID in the iCloud setting section of the backup and restore page.                                        |
+| [_Inji Wallet-1261_](https://mosip.atlassian.net/browse/INJIMOB-1261) | Inji Wallet - An error message is not proper when an invalid QR is scanned after changing the language to something other than English.                           |
+| [_Inji Wallet-1259_](https://mosip.atlassian.net/browse/INJIMOB-1259) | Inji Wallet- Backup & restore Name Is Different In Settings And Backup & restore Page                                                                             |
+| [_Inji Wallet-1256_](https://mosip.atlassian.net/browse/INJIMOB-1256) | Backup and Restore heading Alignment is not proper on the Backup& restore page                                                                                    |
+| [_Inji Wallet-1252_](https://mosip.atlassian.net/browse/INJIMOB-1252) | Inji Wallet- Sometimes VC activate the button and the back button responses are very slow                                                                         |
+| [_Inji Wallet-1248_](https://mosip.atlassian.net/browse/INJIMOB-1248) | Inji Wallet- ID Repo UINs are failing in VC verification                                                                                                          |
+| [_Inji Wallet-868_](https://mosip.atlassian.net/browse/INJIMOB-868)   | Inji Wallet- Backup doesn't append the new data but replaces the data                                                                                             |
+| [_Inji Wallet-689_](https://mosip.atlassian.net/browse/INJIMOB-689)   | Upon changing the finger authentication in the device, the application does not display the error pop-up for biometrics change                                    |
+
+=== _Bugs Fixes_
+
+Below is the [_list_](https://mosip.atlassian.net/issues/?filter=11580) of fixes as part of the _0.14.0_ release:
+
+| _Jira issue_                                                          | _Issue description_                                                                                                                                                    |
+| ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [_Inji Wallet-886_](https://mosip.atlassian.net/browse/INJIMOB-886)   | Inji Wallet: When the camera access is disabled, the user clicks on the close icon error screen it redirects to the sharing screen                                       |
+| [_Inji Wallet-1410_](https://mosip.atlassian.net/browse/INJIMOB-1410) | Inji Wallet - Unable to go back from the detailed view page                                                                                                              |
+| [_Inji Wallet-1418_](https://mosip.atlassian.net/browse/INJIMOB-1418) | Inji Wallet- VC verification is passing for missing attribute VC                                                                                                         |
+| [_Inji Wallet-1422_](https://mosip.atlassian.net/browse/INJIMOB-1422) | Inji Wallet- During face authentication, the camera view is wider than the face.                                                                                         |
+| [_Inji Wallet-1531_](https://mosip.atlassian.net/browse/INJIMOB-1531) | Inji Wallet - IOS - The "Share QR Code" feature saves both the QR Code and a text file to files.                                                                         |
+| [_Inji Wallet-1591_](https://mosip.atlassian.net/browse/INJIMOB-1591) | Inji Wallet- Users are unable to upload the VC QR code shared via email and WhatsApp, or stored locally                                                                  |
+| [_Inji Wallet-1600_](https://mosip.atlassian.net/browse/INJIMOB-1600) | Inji Wallet- In Android when the user clicks the + icon from the home page issuer page is not loaded                                                                     |
+| [_Inji Wallet-1814_](https://mosip.atlassian.net/browse/INJIMOB-1814) | Inji Wallet - Unable to see the issuer of the credentials                                                                                                                |
+| [_Inji Wallet-1816_](https://mosip.atlassian.net/browse/INJIMOB-1816) | Inji Wallet- Sunbird issuer is not loading and is redirecting to the 'Add New Card' screen. Trying to click any other issuer is also not working                         |
+| [_Inji Wallet-1820_](https://mosip.atlassian.net/browse/INJIMOB-1820) | Inji Wallet- The Intermittent share with selfie option is not getting for the National Identity department                                                               |
+| [_Inji Wallet-1836_](https://mosip.atlassian.net/browse/INJIMOB-1836) | Activation successful banner is not showing up                                                                                                                           |
+| [_Inji Wallet-1849_](https://mosip.atlassian.net/browse/INJIMOB-1849) | Inji Wallet- We are unable to download the VC Stay Protected insurance credential                                                                                        |
+| [_Inji Wallet-1850_](https://mosip.atlassian.net/browse/INJIMOB-1850) | Inji Wallet- When the Certify well-known is replaced with fall back well-known url in the Inji configuration The user is not redirected to the default well-known issuer |
+| [_Inji Wallet-1854_](https://mosip.atlassian.net/browse/INJIMOB-1854) | Inji Wallet- The user is not getting any error if the fallback is not working                                                                                            |
+| [_Inji Wallet-1855_](https://mosip.atlassian.net/browse/INJIMOB-1855) | Inji Wallet-Mock identity is not loading and is redirecting to the 'Add New Card' screen. Trying to click any other issuer is also not working                           |
+| [_Inji Wallet-1858_](https://mosip.atlassian.net/browse/INJIMOB-1858) | Activated option in quick access menu for VCs which doesn't have biometrics                                                                                              |
+| [_Inji Wallet-1897_](https://mosip.atlassian.net/browse/INJIMOB-1897) | Inji Wallet- In the mock VC, there is no profile photo, but the share option is still visible                                                                            |
+| [_Inji Wallet-1898_](https://mosip.atlassian.net/browse/INJIMOB-1898) | When display properties are removed at mosip certify the user is blocked with a white screen and not able to use the app.                                                |
+| [_Inji Wallet-2050_](https://mosip.atlassian.net/browse/INJIMOB-2050) | Update mimoto local properties file to run mimoto locally without docker-compose                                                                                         |
+| [_Inji Wallet-2051_](https://mosip.atlassian.net/browse/INJIMOB-2051) | Background colour not showing up in VC as per configuration in well-known                                                                                                |
+
+=== Documentation Details
+
+* [Feature Documentation](https://docs.mosip.io/inji/inji-mobile-wallet/overview/features)
+* [Integration Guides](https://docs.mosip.io/inji/inji-mobile-wallet/integration-guide)
+* [User Guide](https://docs.mosip.io/inji/inji-mobile-wallet/end-user-guide)
+* [QA Report](test-report.adoc)
+* [API Documentation](https://github.com/mosip/mimoto/tree/release-0.10.0/docs/postman-collections)

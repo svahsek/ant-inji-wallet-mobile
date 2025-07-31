@@ -1,0 +1,62 @@
+= Version 0.14.1
+
+_Release Name:_ Inji Wallet 0.14.1(Patch)
+
+_Release Type:_ Developer
+
+_Release Date:_ 24th Feb, 2025
+
+== _Overview_
+
+This patch release addresses a critical issue related to iOS dependency management, specifically fixing the checksum of the Boost library to enable a successful build and republishing of the iOS TestFlight release.
+
+== _Key Highlights_
+
+_ _Fixed:* Checksum issue with Boost dependency in iOS, ensuring successful package installation.
+_ _iOS TestFlight Republish:_ The previous TestFlight build for _release_-[_0.14.0*](https://github.com/mosip/mimoto/tree/v0.14.0) expired due to the 90-day limit. This patch enables republishing without requiring additional changes to the release branch.
+_ _Build Process Improvement:* The IPA is rebuilt and republished from the same branch, ensuring smooth distribution on TestFlight.
+
+This patch ensures that iOS builds remain functional and available for testing and deployment.
+
+{% hint style="info" %}
+_Note_: The current release does not alter the android-build, it stays unchanged and is same as with Inji 0.14.0.
+{% endhint %}
+
+== _Repository Released_
+
+| _Module_         | _Version_                                                     |
+| ------------------ | --------------------------------------------------------------- |
+| Inji Mobile Wallet | [_0.14.1_](https://github.com/mosip/inji-wallet/tree/v0.14.1) |
+
+== _Compatible Modules_
+
+| _Module_                | _Version_                                                                    |
+| ------------------------- | ------------------------------------------------------------------------------ |
+| Mimoto                    | [_0.14.0_](https://github.com/mosip/mimoto/tree/v0.14.0)                     |
+| Inji-config               | [_v0.3.0_](https://github.com/mosip/inji-config/tree/v0.3.0)                 |
+| eSignet                   | [_v1.4.1_](https://github.com/mosip/esignet/tree/v1.4.1)                     |
+| Inji Verify               | [_v0.10.0_](https://github.com/mosip/inji-verify/tree/v0.10.0)               |
+| tuvali                    | [_v0.5.1_](https://github.com/mosip/tuvali/tree/v0.5.1)                      |
+| tuvali-ios-swift          | [_v0.5.0_](https://github.com/mosip/tuvali-ios-swift/releases/tag/v0.5.0)    |
+| secure-Keystore           | [_v0.2.1_](https://github.com/mosip/secure-keystore/tree/v0.2.1)             |
+| pixelpass                 | [_v0.2.1_](https://github.com/mosip/pixelpass/tree/v0.2.1)                   |
+| pixelpass-ios-swift       | [_v0.2.0_](https://github.com/mosip/pixelpass-ios-swift/releases/tag/v0.2.0) |
+| Inji-vci-client           | [_v0.1.1_](https://github.com/mosip/inji-vci-client/tree/v0.1.1)             |
+| Inji-vci-client-ios-swift | [_v0.1.1_](https://github.com/mosip/inji-vci-client-ios-swift/tree/v0.1.1)   |
+
+== _Known Issues_
+
+The list of known issues can be found [_here_](https://mosip.atlassian.net/jira/software/c/projects/INJIMOB/issues/?jql=project%20%3D%20%22INJIMOB%22%20AND%20type%20%3D%20Bug%20AND%20status%20IN%20%28New%2C%20Assigned%29%20ORDER%20BY%20created%20DESC)_._
+
+== _Bug Fixes_
+
+| _Jira Issue_                                                                 | _Issue Description_                                      |
+| ------------------------------------------------------------------------------ | ---------------------------------------------------------- |
+| [_Inji Mobile Wallet-2653_](https://mosip.atlassian.net/browse/INJIMOB-2653) | iOS build failing in PR run due to failing \`pod install\` |
+
+== _Documentation Details:_
+
+_ [_Feature Documentation*](https://docs.mosip.io/inji/inji-mobile-wallet/overview/features)
+_ [_Integration Guides*](https://docs.mosip.io/inji/inji-mobile-wallet/integration-guide)
+_ [_User Guide*](https://docs.mosip.io/inji/inji-mobile-wallet/end-user-guide)
+_ [_API Documentation*](https://github.com/mosip/mimoto/tree/v0.14.0/docs/postman-collections)

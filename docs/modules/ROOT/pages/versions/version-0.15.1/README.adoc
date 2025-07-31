@@ -1,0 +1,70 @@
+= Version 0.15.1
+
+_Release Name:_ Inji Wallet 0.15.1(Patch)
+
+_Release Type:_ Developer
+
+_Release Date:_ 27th March, 2025
+
+== _Overview_
+
+We are excited to announce the release of _Inji Wallet Version 0.15.1!_ This update focuses on _branding enhancements_, including updated _logos and visual identity_ across the wallet interface. While this is a minor update, it ensures consistency with our latest branding efforts and provides a refreshed user experience.
+
+=== _Key Highlights_
+
+_ _Updated Branding Logo:_ The Inji Wallet now features an updated _logo and branding elements* to align with the latest visual identity of the Inji ecosystem.
+_ _UI Enhancements:_ Adjustments have been made to ensure the _new logo is seamlessly integrated* across all screens.
+
+=== _Features Updated_
+
+. _Branding Updates:_
+
+_ Replaced the previous _Inji logo_ with the _new branding logo* across all wallet screens.
+_ Verified _logo integration_ in the _home screen, issuer selection, and credential views*.
+
+2\. _UI Improvements:_
+
+_ Adjusted _logo positioning* for enhanced visibility.
+_ Ensured seamless _branding consistency* across mobile and web versions.
+
+=== _Repository Released_
+
+| Module                    | Version                                                                        |
+| ------------------------- | ------------------------------------------------------------------------------ |
+| Inji Mobile Wallet        | [_0.15.1_](https://github.com/mosip/inji-wallet/tree/v0.15.1)                |
+| inji-vci-client-ios-swift | [_v0.2.1_](https://github.com/mosip/inji-vci-client-ios-swift/tree/v0.2.1)   |
+| pixelpass-ios-swift       | [_v0.6.1_](https://github.com/mosip/pixelpass-ios-swift/releases/tag/v0.6.1) |
+
+=== _Compatible Modules_
+
+| _Module_                | _Version_                                                                  |
+| ------------------------- | ---------------------------------------------------------------------------- |
+| Inji-config               | [_0.5.0_](https://github.com/mosip/inji-config/tree/v0.5.0)                |
+| eSignet                   | [_1.5.0_](https://github.com/mosip/esignet/tree/v1.5.0)                    |
+| Inji Certify              | [_0.10.1_](https://github.com/mosip/inji-certify/tree/v0.10.1)             |
+| Inji Verify               | [_v0.10.0_](https://github.com/mosip/inji-verify/tree/v0.10.0)             |
+| tuvali                    | [_v0.5.1_](https://github.com/mosip/tuvali/tree/v0.5.1)                    |
+| tuvali-ios-swift          | [_v0.5.0_](https://github.com/mosip/tuvali-ios-swift/releases/tag/v0.5.0)  |
+| mimoto                    | [_v0.15.2_](https://github.com/mosip/mimoto/tree/v0.15.2)                  |
+| vc-verifier               | [_v0.1.0_](https://github.com/mosip/inji-openid4vp-ios-swift/tree/v0.1.0)  |
+| pixelpass                 | [_v0.6.0_](https://github.com/mosip/pixelpass/tree/v0.6.0)                 |
+| secure-keystore           | [_v0.3.0_](https://github.com/mosip/secure-keystore/tree/v0.3.0)           |
+| secure-keystore-ios-swift | [_v0.3.0_](https://github.com/mosip/secure-keystore-ios-swift/tree/v0.3.0) |
+| inji-vci-client           | [_v0.2.0_](https://github.com/mosip/inji-vci-client/tree/v0.2.0)           |
+| inji-openid4vp            | [_v0.1.0_](https://github.com/mosip/inji-openid4vp/tree/v0.1.0)            |
+
+=== _Known Issues_
+
+There are no new known issues introduced in this release. For existing known issues, refer to [_previous release notes_.](https://docs.inji.io/inji-wallet/inji-mobile/versions/version-0.15.0)
+
+=== _Bug Fixes_
+
+No functional & technical bug fixes were included in this release as it is focused exclusively on branding updates.
+
+=== _Documentation Details_
+
+* [Feature Documentation](https://docs.mosip.io/inji/inji-mobile-wallet/overview/features)
+* [Integration Guides](https://docs.mosip.io/inji/inji-mobile-wallet/integration-guide)
+* [User Guide](https://docs.mosip.io/inji/inji-mobile-wallet/end-user-guide)
+* [QA Report](test-report.adoc)
+* [API Documentation](https://github.com/mosip/mimoto/tree/release-0.15.x/docs/postman-collections)
