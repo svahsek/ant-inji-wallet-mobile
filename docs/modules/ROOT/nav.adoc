@@ -1,1 +1,98 @@
 * xref:index.adoc[Index]
+* Deploy
+** xref:deploy/local-setup.adoc[Local Setup]
+** xref:deploy/README.adoc[README]
+* Develop
+** xref:develop/architecture.adoc[Architecture]
+** Backend Services
+*** xref:develop/backend-services/esignet.adoc[Esignet]
+*** xref:develop/backend-services/inji-certify.adoc[Inji Certify]
+*** xref:develop/backend-services/mimoto.adoc[Mimoto]
+*** xref:develop/backend-services/README.adoc[README]
+** xref:develop/components.adoc[Components]
+** Customization Overview
+*** xref:develop/customization-overview/configuration.adoc[Configuration]
+*** xref:develop/customization-overview/credential_providers.adoc[Credential Providers]
+*** xref:develop/customization-overview/locale-customization.adoc[Locale Customization]
+*** xref:develop/customization-overview/README.adoc[README]
+*** xref:develop/customization-overview/ui-customization.adoc[UI Customization]
+*** xref:develop/customization-overview/workflow-customization.adoc[Workflow Customization]
+** Integration Guide
+*** xref:develop/integration-guide/ble-verifier.adoc[BLE Verifier]
+*** xref:develop/integration-guide/face-match.adoc[Face Match]
+*** xref:develop/integration-guide/openid4vp.adoc[OpenID4VP]
+*** xref:develop/integration-guide/pixelpass.adoc[PixelPass]
+*** xref:develop/integration-guide/README.adoc[README]
+*** xref:develop/integration-guide/secure-keystore.adoc[Secure Keystore]
+*** xref:develop/integration-guide/telemetry.adoc[Telemetry]
+*** Tuvali
+**** xref:develop/integration-guide/tuvali/README.adoc[README]
+**** xref:develop/integration-guide/tuvali/tuvali-inji.adoc[Tuvali Inji]
+**** xref:develop/integration-guide/tuvali/tuvali-requirements.adoc[Tuvali Requirements]
+*** xref:develop/integration-guide/vci-client.adoc[VCI Client]
+** xref:develop/README.adoc[README]
+** Specifications
+*** xref:develop/specifications/face-sdk-specifications.adoc[Face SDK Specifications]
+*** xref:develop/specifications/README.adoc[README]
+** xref:develop/technical-stack.adoc[Technical Stack]
+* xref:index.adoc[Index]
+* Overview
+** xref:overview/features.adoc[Features]
+** xref:overview/README.adoc[README]
+* xref:README.adoc[README]
+* Releases
+** xref:releases/README.adoc[README]
+** Version 0.10.0
+*** xref:releases/version-0.10.0/README.adoc[README]
+*** xref:releases/version-0.10.0/test-report-0.10.0.adoc[Test Report]
+** Version 0.11.0 Inji
+*** xref:releases/version-0.11.0-inji/README.adoc[README]
+*** xref:releases/version-0.11.0-inji/test-report.adoc[Test Report]
+** xref:releases/version-0.11.0.adoc[Version 0.11.0]
+** Version 0.12.0
+*** xref:releases/version-0.12.0/README.adoc[README]
+*** xref:releases/version-0.12.0/test-report.adoc[Test Report]
+** Version 0.13.0
+*** xref:releases/version-0.13.0/README.adoc[README]
+*** xref:releases/version-0.13.0/test-report.adoc[Test Report]
+** Version 0.13.1
+*** xref:releases/version-0.13.1/README.adoc[README]
+*** xref:releases/version-0.13.1/test-report.adoc[Test Report]
+** Version 0.14.0
+*** xref:releases/version-0.14.0/README.adoc[README]
+*** xref:releases/version-0.14.0/test-report.adoc[Test Report]
+** Version 0.14.1
+*** xref:releases/version-0.14.1/README.adoc[README]
+*** xref:releases/version-0.14.1/test-report.adoc[Test Report]
+** Version 0.15.0
+*** xref:releases/version-0.15.0/README.adoc[README]
+*** xref:releases/version-0.15.0/test-report.adoc[Test Report]
+** Version 0.15.1
+*** xref:releases/version-0.15.1/README.adoc[README]
+*** xref:releases/version-0.15.1/test-report.adoc[Test Report]
+** Version 0.16.0
+*** xref:releases/version-0.16.0/README.adoc[README]
+*** xref:releases/version-0.16.0/test-report.adoc[Test Report]
+** Version 0.17.0
+*** xref:releases/version-0.17.0/README.adoc[README]
+*** xref:releases/version-0.17.0/test-report.adoc[Test Report]
+** Version 0.17.1
+*** xref:releases/version-0.17.1/README.adoc[README]
+*** xref:releases/version-0.17.1/test-report.adoc[Test Report]
+** Version 0.9.0
+*** xref:releases/version-0.9.0/README.adoc[README]
+*** xref:releases/version-0.9.0/test-report-0.9.0.adoc[Test Report]
+** Version 0.9.1
+*** xref:releases/version-0.9.1/README.adoc[README]
+*** xref:releases/version-0.9.1/test-report-0.9.1.adoc[Test Report]
+** xref:releases/version-inji-dp1.adoc[Version Inji DP1]
+** Version Inji DP2
+*** xref:releases/version-inji-dp2/README.adoc[README]
+*** xref:releases/version-inji-dp2/test-report-dp2.adoc[Test Report]
+* Use
+** xref:use/end-user-guide.adoc[End User Guide]
+** xref:use/feature-workflows.adoc[Feature Workflows]
+** xref:use/README.adoc[README]
+** Sandbox Details
+*** xref:use/sandbox-details/inji-setup-guide.adoc[Inji Setup Guide]
+*** xref:use/sandbox-details/README.adoc[README]
