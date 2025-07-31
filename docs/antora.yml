@@ -1,0 +1,5 @@
+name: ant-inji-wallet-mobile
+title: Ant Inji Wallet Mobile
+version: ~ main
+nav:
+- modules/ROOT/nav.adoc
